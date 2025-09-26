@@ -1,0 +1,10 @@
+num = 76542
+reverse_number = 0
+
+print("Given number", num)
+
+while num > 0:
+    reminder = num % 10
+    reverse_number = (reverse_number * 10) + reminder
+    num = num // 10
+print("reverse nukber", reverse_number)
