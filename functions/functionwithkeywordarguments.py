@@ -1,3 +1,5 @@
+##function with keyword arguments
+
 def print_info(**kwargs):
     if kwargs:
         print("\n --- Information ---")
