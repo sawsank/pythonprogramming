@@ -1,0 +1,6 @@
+Explanation:
+
+- Similar to the previous example, we open the file in read mode using with open(...).
+- The for line in file: loop iterates over each line in the file.
+- Each line variable will contain a single line from the file, including the newline character at the end.
+- print(line, end='') prints each line. We use end='' to prevent an extra newline from being printed after each line, as the lines themselves already contain a newline character.
